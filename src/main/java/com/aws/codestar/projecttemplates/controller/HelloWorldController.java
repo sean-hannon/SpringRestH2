@@ -29,4 +29,9 @@ public class HelloWorldController {
     private String createResponse(String name) {
         return new JSONObject().put("Output", String.format(MESSAGE_FORMAT, name)).toString();
     }
+
+    @RequestMapping(value = "/rest", produces = "application/json")
+    public ResponseEntity restEndpoint(){
+        return ResponseEntity.ok(createResponse("rest endpoint test"));
+    }
 }
