@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/decode", method = RequestMethod.GET, produces = "application/json")
+@RequestMapping("/decode")
 public class DecodeController {
 
+  @RequestMapping(method = RequestMethod.GET, produces = "application/json")
   public ResponseEntity decode(){
     return new ResponseEntity(null, HttpStatus.NOT_IMPLEMENTED);
   }

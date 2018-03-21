@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/encode", method = RequestMethod.POST, produces = "application/json")
+@RequestMapping("/encode")
 public class EncodeController {
 
+  @RequestMapping(method = RequestMethod.POST, produces = "application/json")
   public ResponseEntity encode(){
     return new ResponseEntity(null, HttpStatus.NOT_IMPLEMENTED);
   }
