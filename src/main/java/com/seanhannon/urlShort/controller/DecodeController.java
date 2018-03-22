@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.controller;
+package com.seanhannon.urlShort.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/encode")
-public class EncodeController {
+@RequestMapping("/decode")
+public class DecodeController {
 
-  @RequestMapping(method = RequestMethod.POST, produces = "application/json")
-  public ResponseEntity encode(){
+  @RequestMapping(method = RequestMethod.GET, produces = "application/json")
+  public ResponseEntity decode(){
     return new ResponseEntity(null, HttpStatus.NOT_IMPLEMENTED);
   }
 }

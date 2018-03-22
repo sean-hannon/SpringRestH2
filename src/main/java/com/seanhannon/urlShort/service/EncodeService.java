@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.service;
+package com.seanhannon.urlShort.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.entity;
+package com.seanhannon.urlShort.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
