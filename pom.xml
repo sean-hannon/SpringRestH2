@@ -98,7 +98,7 @@
                     <version>3.2.0</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>urlShort</warName>
+                        <warName>ROOT</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -125,6 +125,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>urlShort</finalName>
+        <finalName>ROOT</finalName>
     </build>
 </project>
