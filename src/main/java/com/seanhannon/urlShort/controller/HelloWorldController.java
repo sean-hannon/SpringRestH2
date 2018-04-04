@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.controller;
+package com.seanhannon.urlShort.controller;
 
 import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;
